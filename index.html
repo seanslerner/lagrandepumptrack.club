@@ -20,6 +20,11 @@
         background-size: cover;
         background-position: center center;
       }
+      .stay-informed {
+        background: no-repeat url(/paddys-pump-track-12.jpg);
+        background-size: cover;
+        background-position: center center;
+      }
       .hero .navbar {
         background: #fefefe;
       }
@@ -63,6 +68,11 @@
         text-align: right;
         font-size: 0.875em;
         color: #e74c3c;
+      }
+      figure.image {
+        -webkit-box-shadow: 5px 5px 5px 0px rgba(107,99,107,1);
+        -moz-box-shadow: 5px 5px 5px 0px rgba(107,99,107,1);
+        box-shadow: 5px 5px 5px 0px rgba(107,99,107,1);
       }
     </style>
   </head>
@@ -145,7 +155,7 @@
         </div>
       </div>
     </section>
-    <section class="hero is-medium" id="stayInformed">
+    <section class="hero is-medium" id="design">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">What would it look like?</h1>
@@ -154,42 +164,106 @@
               <img src="design.png">
             </div>
             <div class="column">
-              <p>Here is one pump track design that could fit in the proposed location.</p>
+              <p>This is one possible pump track design that could fit in the proposed location. The final design will be something like this, and ideally will include picnic tables for seating and a bike repair station for on-the-fly fixes.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="hero is-medium" id="stayInformed">
+    <section class="hero is-light is-medium stay-informed" id="stayInformed">
       <div class="hero-body">
-        <div class="container">
+        <div class="container hero-main" style="margin: 0 auto 0 0;">
           <h1 class="title">Stay Informed</h1>
           <h2 class="subtitle">
             If you'd like to see a pump track built in our community, let the city know! We're collecting names so that when we meet with the Parks Department, we can show them that this is something La Grande needs.
           </h2>
-          <div class="container hero-main">
-            <form>
-              <div class="field">
-                <label class="label">Name</label>
-                <div class="control">
-                  <input class="input" type="text" placeholder="Full name">
-                </div>
-              </div>
 
-              <div class="field">
-                <label class="label">Email</label>
-                <div class="control">
-                  <input class="input" type="email" placeholder="Email">
+          <div class="columns">
+            <div class="column is-three-fifths is-offset-one-fifth">
+              <form action="https://docs.google.com/forms/d/e/1FAIpQLScB__d-X2r1m1NeDYucuWNW0LWVmiAHOSzfHjTamJ5YCCcAEA/formResponse" method="POST">
+                <div class="field">
+                  <label class="label">Name</label>
+                  <div class="control">
+                    <input class="input" type="text" placeholder="Full name" name="entry.449237290" required>
+                  </div>
                 </div>
-              </div>
 
-
-              <div class="field">
-                <div class="control">
-                  <button class="button is-link">Submit</button>
+                <div class="field">
+                  <label class="label">Email</label>
+                  <div class="control">
+                    <input class="input" type="email" placeholder="Email" name="entry.435602163">
+                  </div>
                 </div>
+
+                <div class="field">
+                  <div class="control">
+                    <button class="button is-link">Submit</button>
+                  </div>
+                </div>
+              </form>
+
+              <div class="content">
+                <small>We promise we won't email you about anything other than progress on the pump track.</small>
               </div>
-            </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="hero is-medium" id="examples">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">This could be us...</h1>
+          <div class="columns">
+            <div class="column">
+              <figure class="image">
+                <img src="example1.jpg">
+              </figure>
+            </div>
+            <div class="column">
+              <figure class="image">
+                <img src="example2.jpg">
+              </figure>
+            </div>
+            <div class="column">
+              <figure class="image">
+                <img src="example3.jpg">
+              </figure>
+            </div>
+          </div>
+          <div class="columns">
+            <div class="column">
+              <figure class="image">
+                <img src="example4.jpg">
+              </figure>
+            </div>
+            <div class="column">
+              <figure class="image">
+                <img src="example5.jpg">
+              </figure>
+            </div>
+            <div class="column">
+              <figure class="image">
+                <img src="example6.jpg">
+              </figure>
+            </div>
+          </div>
+          <div class="columns">
+            <div class="column">
+              <figure class="image">
+                <img src="example7.jpg">
+              </figure>
+            </div>
+            <div class="column">
+              <figure class="image">
+                <img src="example8.jpg">
+              </figure>
+            </div>
+            <div class="column">
+              <figure class="image">
+                <img src="example9.jpg">
+              </figure>
+            </div>
           </div>
         </div>
       </div>
